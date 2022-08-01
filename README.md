@@ -27,4 +27,7 @@ If you build the LS-30 13pin cable conector harness adapter to 4 cable:
 
 ## Circuit
 ![adapter circuit](/img/SNK_LS30_SNAC_ADAPTER_bb.png)
-![my setup](/img/my_setup2.jpg)
+![my setup2](/img/my_setup2.jpg)
+
+Already mounted in a test box:
+![my setup](/img/my_setup.jpg)
