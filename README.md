@@ -1,5 +1,6 @@
 # SNK_LS-30_Rotary_Joystick_SNAC_adapter
 ## Introduction
+
 This is a proof of concept of how to build a SNAC adapter for the MiSTer platform to natively use SNK's LS-30 arcade rotary controls, used in T.A.N.K, Ikari Warriors or Victory Road games among others. 
 This adapter allows you to connect the entire wiring harness to a STM32F103CT8 microcontroller breadboard known as Blue Pill. It is an inexpensive development board and very similar to an Arduino nano, the difference is that this time it mounts an ST micro, specifically the STM32F103C8T6, this micro is much more powerful than the Atmega328 of the Arduino Nano, we can also program it from the Arduino IDE, with which the ease of programming is just as simple, once we have loaded its bootloader.
 I have chosen this board for its power, low cost, and ease of use (if you are used to moving around in the DIY world of electronics). It also allows you to connect all your wiring directly to the board if you already have your I/O port pinouts soldered using DuPont cables. 
@@ -26,3 +27,4 @@ If you build the LS-30 13pin cable conector harness adapter to 4 cable:
 
 ## Circuit
 ![adapter circuit](/img/SNK_LS30_SNAC_ADAPTER_bb.png)
+![my setup](/img/my_setup2.jpg)
