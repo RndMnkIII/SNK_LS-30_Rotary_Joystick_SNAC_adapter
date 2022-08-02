@@ -1,6 +1,8 @@
 //SNK LS-30 Rotary joystick SNAC adapter for the MiSTer FPGA.
 //Author: @RndMnkIII.
 //Date:   29/07/2022
+//For instructions about how to connect and program the STM32F103C using ST LINK V2 programmer see:
+// https://www.youtube.com/watch?v=saolJ_7E7hc
 
 //LS-30 Rotary Joystick connector schematic (one for each player):
 //     ---------------------------------------------------------------
@@ -74,8 +76,6 @@
 //5V             pin1 VBUS             3  T
 //GND            pin4 GND
 
-//For instructions about how to connect and program the STM32F103C using ST LINK V2 programmer see:
-// https://www.youtube.com/watch?v=saolJ_7E7hc
 volatile uint32_t var_portA;
 volatile uint32_t var_portB;
 volatile uint32_t data_out;
